@@ -5,9 +5,9 @@
     <PrensentationBottom gdr="man" />
   </div>
   <div v-else>
-    <presentationTop gdr="woman" />
-    <carousel gdr="woman" />
-    <prensentationBottom gdr="woman" />
+    <PresentationTop gdr="woman" />
+    <Carousel gdr="woman" />
+    <PrensentationBottom gdr="woman" />
   </div>
 </template>
 
