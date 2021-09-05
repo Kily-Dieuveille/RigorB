@@ -1,5 +1,4 @@
 <template>
-
   <header>
     <div id="menu">
       <router-link to="" id="man"> MAN </router-link>
@@ -8,11 +7,16 @@
     </div>
   </header>
 
-  <router-view></router-view>
+  <router-view>
+
+  </router-view>
 </template>
 
 <script>
-
+  export default{
+    components:{
+    }
+  }
 
 </script>
 
