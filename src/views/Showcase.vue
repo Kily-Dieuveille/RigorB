@@ -1,13 +1,13 @@
 <template>
   <div v-if="gender === 'man'">
-    <PresentationTop gdr="man" />
-    <Carousel gdr="man" />
-    <PrensentationBottom gdr="man" />
+    <PresentationTop gender="man" />
+    <Carousel gender="man" />
+    <PrensentationBottom gender="man" />
   </div>
   <div v-else>
-    <PresentationTop gdr="woman" />
-    <Carousel gdr="woman" />
-    <PrensentationBottom gdr="woman" />
+    <PresentationTop gender="woman" />
+    <Carousel gender="woman" />
+    <PrensentationBottom gender="woman" />
   </div>
 </template>
 
@@ -25,7 +25,7 @@ export default {
 
     },
     props:{
-        gdr: String
+       gender: String
     }
 }
 </script> 

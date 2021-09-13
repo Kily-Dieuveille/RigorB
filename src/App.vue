@@ -1,5 +1,6 @@
 <template>
   <header>
+    <div id="logo"> LOGO </div>
     <div id="menu">
       <router-link to="catalogue/Hommes" id="man"> MAN </router-link>
       <span class="separateur_verticale"></span>
