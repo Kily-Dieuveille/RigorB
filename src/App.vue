@@ -1,10 +1,12 @@
 <template>
   <header>
-    <div id="logo"> LOGO </div>
+    <div id="logo"> 
+      <img src="" alt="">
+       </div>
     <div id="menu">
-      <router-link to="catalogue/Hommes" id="man"> MAN </router-link>
+      <router-link to="/catalogue/Hommes" id="man"> MAN </router-link>
       <span class="separateur_verticale"></span>
-      <router-link to="catalogue/Femmes" id="woman"> WOMAN </router-link>
+      <router-link to="/catalogue/Femmes" id="woman"> WOMAN </router-link>
     </div>
   </header>
 
@@ -38,4 +40,5 @@
   border-left: 2px solid black;
   height: 15px;
 }
+
 </style>

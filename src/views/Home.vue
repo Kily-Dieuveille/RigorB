@@ -1,10 +1,10 @@
 <template>
   <div class="home">
     <div class="gender">
-      <router-link class="vitrines" to="catalogue/Hommes">
+      <router-link class="vitrines" to="/catalogue/Hommes">
       <img id=img_man src="../assets/image-pc.png" alt="" />
       </router-link>
-      <router-link to="catalogue/Femmes">
+      <router-link to="/catalogue/Femmes">
       <img style="width:300px" src="../assets/femme-couleur-cheveux-colores-blonde-robe-rouge-fond-rouge-coloration-modele-femme-cheveux-blonds-couleur-cendre_91497-5261.jpg" alt="">
       </router-link>
     </div>

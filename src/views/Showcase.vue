@@ -1,14 +1,22 @@
 <template>
-  <div v-if="gender === 'man'">
-    <PresentationTop gender="man" />
-    <Carousel gender="man" />
-    <PrensentationBottom gender="man" />
+{{genre=$route.params.gender}}
+
+  <div v-if="genre==='Hommes'">
+
+    <PresentationTop/>
+    <Carousel gender="man"/>
+    <PrensentationBottom/>
+    
   </div>
+
   <div v-else>
-    <PresentationTop gender="woman" />
-    <Carousel gender="woman" />
-    <PrensentationBottom gender="woman" />
+
+    <PresentationTop/>
+    <Carousel gender="woman"/>
+    <PrensentationBottom/>
+
   </div>
+  
 </template>
 
 <script>
@@ -24,8 +32,10 @@ export default {
         Carousel,
 
     },
-    props:{
-       gender: String
+    data: ()=>{
+      return {
+        genre:''
+      }
     }
 }
 </script> 
