@@ -1,10 +1,10 @@
 <template>
-{{genre=$route.params.gender}}
 
-  <div v-if="genre==='Hommes'">
+  <div v-if="$route.params.gender==='Hommes'">
 
     <PresentationTop/>
     <Carousel gender="man"/>
+    <GrilleProduit/>
     <PrensentationBottom/>
     
   </div>
@@ -13,6 +13,7 @@
 
     <PresentationTop/>
     <Carousel gender="woman"/>
+    <GrilleProduit/> 
     <PrensentationBottom/>
 
   </div>
@@ -23,6 +24,7 @@
 import PresentationTop from '@/components/PrensentationTop.vue'
 import Carousel from '@/components/Carousel.vue'
 import PrensentationBottom from '@/components/PresentationBottom.vue'
+import GrilleProduit from '@/components/GrilleProduit.vue'
 
 export default {
     name: "showcase",
@@ -30,6 +32,7 @@ export default {
         PresentationTop,
         PrensentationBottom,
         Carousel,
+        GrilleProduit
 
     },
     data: ()=>{

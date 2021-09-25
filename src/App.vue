@@ -1,8 +1,9 @@
 <template>
   <header>
     <div id="logo"> 
-      <img src="" alt="">
-       </div>
+      <img src="./assets/rigorB-logo-transparent.png" alt="logo">
+    </div>
+
     <div id="menu">
       <router-link to="/catalogue/Hommes" id="man"> MAN </router-link>
       <span class="separateur_verticale"></span>
@@ -41,4 +42,7 @@
   height: 15px;
 }
 
+#logo img {
+  width:150px;
+}
 </style>

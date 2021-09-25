@@ -39,18 +39,18 @@
             </div>
         </div>
         <div class="box-icon">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-linkedin"></i>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>            
         </div>
         <div class="box-text">
             <p>
 
-        Le contenu de ce site est protégé par la loi du copyright et appartient à H & M Hennes & Mauritz AB. 
-        Le concept du groupe H&M est de proposer mode et qualité au meilleur prix et de façon durable. 
-        Depuis sa création en 1947, H&M est devenu l'un des principaux groupes de prêt-à-porter du monde.
+        Le contenu de ce site est protégé par la loi du copyright et appartient à R igorB  AB. 
+        Le concept du groupe RigorB est de proposer mode et qualité au meilleur prix et de façon durable. 
+        Depuis sa création en 1947, RigorB est devenu l'un des principaux groupes de prêt-à-porter du monde.
 
             </p>
 
@@ -59,7 +59,13 @@
             </button>
         </div>
         <div class="box-logo">
-            <img src="" alt="">
+            <img src="..\assets\rigorB-logo-transparent.png" alt="">
+        </div>
+
+        <div class="info-region">
+            <a href="#">France</a>
+            <span class="separateur_verticale"></span>
+            €
         </div>
 
     </footer>
@@ -82,6 +88,10 @@
     margin-left: 50px;
     margin-right: 50px;
 }
+.box-logo img {
+  width:100px;
+}
+
 
 footer
 {
@@ -120,5 +130,15 @@ a
      font-family: Arial, Helvetica, sans-serif;
  }
  
+.separateur_verticale
+{
+  display: inline-block;
+  border-left: 2px solid black;
+  height: 15px;
+}
 
+.info-region
+{
+    text-align: center;
+}
 </style>
